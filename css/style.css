@@ -15,7 +15,7 @@ body {
   font-weight: 300;
   font-size: 24px;
   color: #321a06;
-  font-family: "Gotham Pro", sans-serif;
+  font-family: 'Gotham Pro', sans-serif;
   background-image: url("../img/background-main.jpeg");
   background-position: center;
   /* height: 100vh; */
@@ -153,6 +153,7 @@ p {
   align-items: center;
 }
 .main__block-titles {
+  font-family: 'Gotham Pro Medium', sans-serif;
   min-width: 100%;
 }
 .main__title-block {
@@ -563,7 +564,7 @@ p {
     line-height: 22px;
     margin-top: 20%;
   }
-  
+
   .main__list-colors {
     margin-bottom: 8px;
   }
@@ -585,8 +586,6 @@ p {
   .main__block {
     width: 100%;
   }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -605,64 +604,67 @@ p {
     display: block;
     max-width: 150px;
     margin: 30px 20px;
-
   }
   .main__item-left {
-
+    
   }
   .main__item-right {
     margin-left: auto;
   }
 
-.main__time-item svg {
-  width: 25px;
-  height: 25px;
-}
-.main__dop-info-panel{
-  display:none;
-}
-.main__basket-panel {
-  margin-left: 0px;
-}
+  .main__time-item svg {
+    width: 25px;
+    height: 25px;
+  }
+  .main__dop-info-panel {
+    display: none;
+  }
+  .main__basket-panel {
+    margin-left: 0px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .main__title-block {
     padding: 0px 0 0 30px;
     font-size: 20px;
-}.main__subtitle-block {
-  padding: 5px 30px 0px 0px;
-  font-size: 20px;
-}.main__block {
-  height: 115px;
-}
-.main__basket-panel svg, .main__balance-panel svg, .main__burger-menu-panel svg {
-  width: 20px;
-  height: 20px;
-}
-.main__balance-number-panel {
-  margin-left: 4px;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 12px;
-}
-.main__balance-valuta-panel {
-  font-size: 12px;
-  line-height: 10px;
-  letter-spacing: 1px;
-  margin-left: 0px;
-}
-.main__authorization-panel {
-  border: 1px solid #321a06;
-  border-radius: 9px;
-  padding: 4px 6px;
-  margin-left: 4px;
-  font-size: 9px;
-  line-height: 10px;
-}
-.main__basket-panel::after {
-  right: 0;
-  top: 2px;
-  width: 1px;
-  height: 20px;
-}
+  }
+  .main__subtitle-block {
+    padding: 5px 30px 0px 0px;
+    font-size: 20px;
+  }
+  .main__block {
+    height: 115px;
+  }
+  .main__basket-panel svg,
+  .main__balance-panel svg,
+  .main__burger-menu-panel svg {
+    width: 20px;
+    height: 20px;
+  }
+  .main__balance-number-panel {
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  .main__balance-valuta-panel {
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  .main__authorization-panel {
+    border: 1px solid #321a06;
+    border-radius: 9px;
+    padding: 4px 6px;
+    margin-left: 4px;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .main__basket-panel::after {
+    right: 0;
+    top: 2px;
+    width: 1px;
+    height: 20px;
+  }
 }
